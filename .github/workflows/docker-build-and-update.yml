@@ -34,7 +34,7 @@ jobs:
 
     - name: Update Kubernetes manifest
       run: |
-        sed -i 's|covadongafdez/aquacounter:.*|covadongafdez/aquacounter:${{ github.sha }}|g' ./k8s/deployment.yaml
+        sed -i 's|covadongafdez/aquacounter:.*|covadongafdez/aquacounter:${{ github.sha }}|g' ./k8s/deployment.yml
 
     - name: Commit and push changes
       run: |
