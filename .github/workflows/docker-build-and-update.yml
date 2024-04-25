@@ -6,8 +6,6 @@ on:
       - main
     paths-ignore:
       - 'k8s/deployment.yaml'  # Ignora cambios en este archivo para evitar bucles
-    paths:
-      - '**'  # Incluye todos los demás archivos y carpetas para la construcción
 
 jobs:
   build-and-deploy:
