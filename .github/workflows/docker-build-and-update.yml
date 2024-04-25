@@ -35,11 +35,9 @@ jobs:
     - name: Update Kubernetes manifest
       run: |
         sed -i 's|covadongafdez/aquacounter:.*|covadongafdez/aquacounter:${{ github.sha }}|g' ./k8s/deployment.yml
-
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'Covadonga Fernandez Benavente'
-        git config --global user.email 'covadongafdez@outlook.com'
+        cat ./k8s/deployment.yml
+        git config user.name 'Covadonga Fernandez Benavente'
+        git config user.email 'covadongafdez@outlook.com'
         git add .
         git commit -m "Update deployment manifest with new image tag"
         git push
