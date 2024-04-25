@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'k8s/'  # Ignora los cambios en esta ruta para evitar que entre en bucle
+      - 'k8s/**'  # Ignora los cambios en esta ruta para evitar que entre en bucle
 
 jobs:
   build-and-deploy:
