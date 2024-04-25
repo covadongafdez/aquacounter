@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aquacounter
+  namespace: apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aquacounter
+  template:
+    metadata:
+      labels:
+        app: aquacounter
+    spec:
+      serviceAccountName: aquacounter-service-account  # Agrega esta línea
+      containers:
+      - name: aquacounter
+        image: covadongafdez/aquacounter:e69a0b278e63707b0d5d2723f6456b3586dd6968
+        resources:
+          requests:
+            cpu: 200m
+            memory: 300Mi
+          limits:
+            cpu: 500m
+            memory: 500Mi
+        envFrom:
+        - secretRef:
+            name: aquacounter-env
