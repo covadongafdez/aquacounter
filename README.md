@@ -26,8 +26,13 @@ Para ello, he usado las siguientes tecnologías:
 
 
 ## Diagramas
+### Overview
+De una manera más simple, se muestra la infraestructura creada donde se alojan en Kubernetes una capa de comunicaciones, una capa de observabilidad y la parte de despliegue continuo. Fuera del Clúster, tenemos la Integración Continua con Github Actions, como se explica en el diagrama de abajo, y la parte de Backup con True Nas, donde también se relaciona con la capa de observabilidad en uno de los buckets que almacena los logs.
+![todoproyecto](https://github.com/covadongafdez/aquacounter/assets/161461508/de0ee346-f5ad-4fce-8c87-56cc5e11f3ca)
+
+
 ### CI/CD
-En el siguiente diagrama se muestra cómo funciona la parte de CI/CD con Github Actions y Argo CD dentro de la infraestructura crada en el proyecto con Kubernetes y con el despliegue de la app creada de Aquacounter para demostrar después el uso de las herramientas de observabilidad.
+En el siguiente diagrama se muestra cómo funciona la parte de CI/CD con Github Actions y Argo CD dentro de la infraestructura crada en el proyecto con Kubernetes y con el despliegue de la app creada de Aquacounter para demostrar después el uso de las herramientas de observabilidad. 
 
 
 ![cicdbBN](https://github.com/covadongafdez/aquacounter/assets/161461508/c9406d12-dc3a-474f-b7c3-dff8432eb81f)
