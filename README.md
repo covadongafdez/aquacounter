@@ -1,4 +1,4 @@
-# Bienvenido a mi proyecto de fin de ciclo ASIR!
+# Bienvenido a mi proyecto DevOps de fin de ciclo ASIR!
 
 # Descripción del proyecto
 
@@ -13,16 +13,16 @@ Para ello, he usado las siguientes tecnologías:
 |-----------------|----------------------------------------------------------------|
 | [Kubernetes](https://kubernetes.io/docs/setup/)      | Orquestador de contenedores para la gestión de aplicaciones.   |
 | [Docker](https://docs.docker.com/)          | Plataforma para el desarrollo, envío y ejecución de aplicaciones en contenedores. |
-| NGINX           | Servidor web y proxy inverso de alto rendimiento.              |
-| TrueNAS Core    | Plataforma de almacenamiento de datos de código abierto.       |
-| Grafana         | Plataforma de análisis y visualización de métricas.            |
-| Prometheus      | Sistema de monitoreo y alerta de código abierto.              |
-| Loki            | Sistema de registros de código abierto para nubes nativas.     |
-| Promtail        | Recolector de registros para Loki.                             |
-| Velero          | Herramienta de respaldo y restauración para Kubernetes.        |
-| GitHub          | Plataforma de desarrollo colaborativo basada en la nube.       |
-| GitHub Actions  | Automatización de flujos de trabajo y CI/CD.                   |
-| MetalLB         | Controlador de equilibrio de carga de red para Kubernetes.     |
+| [NGINX Ingress Controller](https://docs.nginx.com/nginx-ingress-controller/)           | Servidor web y proxy inverso de alto rendimiento.              |
+| [TrueNAS Core](https://www.truenas.com/docs/core/)    | Plataforma de almacenamiento de datos de código abierto.       |
+| [Grafana](https://grafana.com/docs/grafana/latest/)         | Plataforma de análisis y visualización de métricas.            |
+| [Prometheus](https://prometheus.io/docs/introduction/overview/)      | Sistema de monitoreo y alerta de código abierto.              |
+| [Loki](https://grafana.com/docs/loki/latest/)            | Sistema de registros de código abierto para nubes nativas.     |
+| [Promtail](https://grafana.com/docs/loki/latest/send-data/promtail/)        | Recolector de registros para Loki.                             |
+| [Velero](https://velero.io/docs/v1.7/)          | Herramienta de respaldo y restauración para Kubernetes.        |
+| [GitHub](https://docs.github.com/es)          | Plataforma de desarrollo colaborativo basada en la nube.       |
+| [GitHub Actions](https://docs.github.com/es/actions)  | Automatización de flujos de trabajo y CI/CD.                   |
+| [MetalLB](https://metallb.universe.tf/installation/)         | Controlador de equilibrio de carga de red para Kubernetes.     |
 
 
 ## Diagramas
