@@ -11,8 +11,8 @@ El objetivo era poder conocer todas las herramientas del ciclo DevOps para poder
 Para ello, he usado las siguientes tecnologías:
 | Tecnología      | Descripción                                                    |
 |-----------------|----------------------------------------------------------------|
-| Kubernetes      | Orquestador de contenedores para la gestión de aplicaciones.   |
-| Docker          | Plataforma para el desarrollo, envío y ejecución de aplicaciones en contenedores. |
+| [Kubernetes](https://kubernetes.io/docs/setup/)      | Orquestador de contenedores para la gestión de aplicaciones.   |
+| [Docker](https://docs.docker.com/)          | Plataforma para el desarrollo, envío y ejecución de aplicaciones en contenedores. |
 | NGINX           | Servidor web y proxy inverso de alto rendimiento.              |
 | TrueNAS Core    | Plataforma de almacenamiento de datos de código abierto.       |
 | Grafana         | Plataforma de análisis y visualización de métricas.            |
