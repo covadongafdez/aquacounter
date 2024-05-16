@@ -25,6 +25,9 @@ Para ello, he usado las siguientes tecnologías:
 | MetalLB         | Controlador de equilibrio de carga de red para Kubernetes.     |
 
 
-## Manual básico de instalación
+## Diagramas
+
+En el siguiente diagrama se muestra cómo funciona la parte de CI/CD con Github Actions y Argo CD dentro de la infraestructura crada en el proyecto con Kubernetes y con el despliegue de la app creada de Aquacounter para demostrar después el uso de las herramientas de observabilidad.
 
 
+![cicdbBN](https://github.com/covadongafdez/aquacounter/assets/161461508/c9406d12-dc3a-474f-b7c3-dff8432eb81f)
