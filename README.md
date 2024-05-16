@@ -26,7 +26,7 @@ Para ello, he usado las siguientes tecnologías:
 
 
 ## Diagramas
-
+### CI/CD
 En el siguiente diagrama se muestra cómo funciona la parte de CI/CD con Github Actions y Argo CD dentro de la infraestructura crada en el proyecto con Kubernetes y con el despliegue de la app creada de Aquacounter para demostrar después el uso de las herramientas de observabilidad.
 
 
