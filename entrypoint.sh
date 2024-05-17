@@ -1,5 +1,5 @@
 #!/bin/bash
-# Configuración inicial de mc (asumiendo que tienes las variables de entorno configuradas para acceso)
+# Configuración inicial de mc (asumiendo que tenemos las variables de entorno configuradas para acceso)
 mc alias set minio http://${MINIO_SERVER}:${PORT} ${ACCESS_KEY} ${SECRET_KEY} >/dev/null 2>&1
 
 # Bucle infinito
