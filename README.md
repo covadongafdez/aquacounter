@@ -5,6 +5,9 @@
 El proyecto consiste en el despliegue de aplicaciones en Kubernetes a través de un proceso de integración y despliegue continuo (con el uso de Github Actions y ArgoCD) unido a un almacenamiento de objetos externo (con [TrueNas Core](https://www.truenas.com/docs/core/) y [Minio](https://www.truenas.com/docs/scale/scaletutorials/apps/communityapps/minioapp/). También se garantiza la observabilidad a través del uso de tecnologías como [Prometheus](https://prometheus.io/docs/introduction/overview/), [Loki](https://grafana.com/docs/loki/latest/) y [Grafana](https://grafana.com/docs/grafana/latest/).
 Se crea una aplicación de ejemplo "Aquacounter" para analizar después  sus trazas de Logs con [Loki](https://grafana.com/docs/loki/latest/) y mostrar una gráfica en la que se muestra el número de veces que los empleados de una empresa bebe agua.
 
+# Esquema general del proyecto
+![WhatsApp Image 2024-05-19 at 16 29 24](https://github.com/covadongafdez/aquacounter/assets/161461508/e99655d3-d279-4c33-9a3e-fac8b99b54d3)
+
 
 # Tecnologías
 El objetivo era poder conocer todas las herramientas del ciclo DevOps para poder desenvolverme mejor en mi incorporación al sector.
