@@ -1,0 +1,19 @@
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
+metadata:
+  name: metallbpool
+  namespace: system-tools
+spec:
+  addresses:
+  -
+  #Indicar ips
+---
+apiVersion: metallb.io/v1beta1
+kind: L2Advertisement
+metadata:
+  name: metallbadversitement
+  namespace: system-tools
+  #siempre es una buena practica ordenar todo por namespace
+spec:
+  ipAddressPools:
+    - metallbpool
