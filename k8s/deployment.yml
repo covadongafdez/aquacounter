@@ -16,7 +16,7 @@ spec:
       serviceAccountName: aquacounter-service-account  # Agrega esta línea
       containers:
       - name: aquacounter
-        image: covadongafdez/aquacounter:dbcc1fd68559035a9a4254728af1d733c6e6559a
+        image: covadongafdez/aquacounter:8353854bde7064c4e335f015628dfa628682ed12
         resources:
           requests:
             cpu: 200m
