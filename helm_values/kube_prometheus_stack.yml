@@ -1,0 +1,38 @@
+grafana:
+  additionalDataSources:
+  - access: proxy
+    name: Loki
+    type: loki
+    url: http://loki-gateway
+  ingress:
+    annotations:
+      nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+      nginx.ingress.kubernetes.io/rewrite-target: /
+    enabled: true
+    hosts:
+    - grafana.covadongafernandez.com
+    ingressClassName: nginx
+    tls:
+    - hosts:
+      - grafana.covadongafernandez.com
+      secretName: grafana.covadongafernandez.com
+prometheus:
+  prometheusSpec:
+    resources:
+      limits:
+        cpu: "1"
+        memory: 1Gi
+      requests:
+        cpu: "1"
+        memory: 1Gi
+    retention: 4d
+    #establecemos limites de recursos y la retencion de datos de 4 dias
+    storageSpec:
+      volumeClaimTemplate:
+        spec:
+          accessModes:
+          - ReadWriteOnce
+          resources:
+            requests:
+              storage: 10Gi
+          storageClassName: openebs-hostpath
